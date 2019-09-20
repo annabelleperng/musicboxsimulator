@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=noteValue
+comment0.target=NoteDiatonic(int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Note.\n\ \n\ @param\ \ \ noteValue\ \ \ an\ integer\ that\ shows\ the\ relative\ placement\ of\ the\ diatonic\ note.\n
+comment1.params=value
+comment1.target=boolean\ isDiatonicNote(int)
+comment1.text=\n\ Checks\ if\ the\ note\ value\ given\ is\ a\ valid\ diatonic\ note.\ Diatonic\ notes\ have\ no\ \n\ sharps\ and\ flats,\ and\ their\ note\ names\ range\ from\ "C-1"\ to\ "C-3."\n\ \n\ @param\ \ \ value\ \ \ the\ 'value'\ of\ the\ note,\ which\ shows\ where\ the\ note\ stands\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ relative\ to\ the\ other\ notes.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @return\ \ true\ \ \ \ if\ the\ value\ corresponds\ with\ a\ diatonic\ note;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+numComments=2

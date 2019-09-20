@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=frameWidth\ frameHeight
+comment0.target=RollDisplayComponent(int,\ int)
+comment0.text=\n\ Constructor\ of\ class\ RollDisplayComponent.\ Creates\ a\ new\ empty\ editor.\n\ \n\ @param\ \ \ frameWidth\ \ \ \ \ \ width\ of\ the\ editor\n\ @param\ \ \ frameHeight\ \ \ \ \ height\ of\ the\ editor\n
+comment1.params=e
+comment1.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment2.params=frameWidth\ frameHeight\ s
+comment2.target=RollDisplayComponent(int,\ int,\ Song)
+comment2.text=\n\ Constructor\ of\ class\ RollDisplayComponent.\ Displays\ the\ song\ indicated\ in\ the\ parameter.\n\ \n\ @param\ \ \ frameWidth\ \ \ \ \ \ width\ of\ the\ editor\n\ @param\ \ \ frameHeight\ \ \ \ \ height\ of\ the\ editor\n\ @param\ \ \ s\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ song\ to\ be\ displayed\n
+comment3.params=e
+comment3.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment4.text=\n\ Paints\ the\ display.\ Shows\ a\ linear\ 'grid'\ of\ notes\ which\ represents\ one\ measure.\n\ \n\ @param\ \ \ g\ \ \ the\ Graphics\ which\ is\ passed\ by\ the\ parent\ method\ display().\n
+comment5.params=
+comment5.target=Song\ getSong()
+comment5.text=\n\ Returns\ the\ song\ displayed\ by\ this\ RollDisplayComponent.\n\ \n\ @return\ \ \ \ \ \ the\ song\ which\ is\ currently\ being\ shown\n
+comment6.params=s
+comment6.target=void\ setSong(Song)
+comment6.text=\n\ Sets\ the\ song\ displayed\ by\ this\ RollDisplayComponent.\n\ \n\ @param\ \ \ s\ \ \ the\ new\ song\ to\ be\ shown\n
+numComments=7

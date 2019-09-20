@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Measure()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Measure.\n
+comment1.params=n\ sixteenthPlace
+comment1.target=void\ modifyChord(Note,\ int)
+comment1.text=\n\ Alters\ the\ chord\ at\ a\ given\ location.\n\ \n\ @param\ \ \ sixteenthPlace\ \ the\ rhythmic\ location\ of\ the\ target\ chord\n\ @param\ \ \ n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ Note\ to\ be\ added\ to\ or\ subtracted\ from\ the\ chord\n
+comment2.params=tempo
+comment2.target=void\ playMeasure(int)
+comment2.text=\n\ Plays\ through\ 'this'\ measure\ at\ a\ given\ tempo.\n\ \n\ @param\ \ \ tempo\ \ \ the\ tempo\ to\ play\ the\ measure\ at\n
+comment3.params=tempo\ vstName
+comment3.target=void\ playMeasureWithVST(int,\ java.lang.String)
+comment3.text=\n\ Plays\ through\ 'this'\ measure\ at\ a\ given\ tempo.\ Uses\ a\ different\n\ sound\ font\ from\ the\ default\ music\ box\ note.\n\ \n\ @param\ \ \ tempo\ \ \ \ \ \ \ the\ tempo\ to\ play\ the\ measure\ at\n\ @param\ \ \ vstName\ \ \ \ \ the\ designated\ name\ for\ the\ vst,\ which\ becomes\ a\ suffix\ in\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ audio\ file\ name\n\ \n
+comment4.params=
+comment4.target=Chord[]\ returnChordsInMeasure()
+comment4.text=\n\ Returns\ an\ array\ consisting\ of\ all\ chords\ in\ the\ measure.\n\ \n\ @return\ \ all\ chords\ inside\ the\ measure\n
+comment5.params=
+comment5.target=java.lang.String\ measureToText()
+comment5.text=\n\ Converts\ the\ measure\ to\ a\ String\ format.\ The\ String\ will\ list\ each\ chord's\n\ sixteenth\ place\ followed\ by\ the\ values\ of\ all\ notes\ the\ chord.\ For\ example\:\n\ "(0)[24.22.19]"\ is\ a\ chord\ with\ C-1,\ E-1,\ and\ G-1\ at\ the\ beginning\ of\ the\n\ measure.\n\ \n\ @return\ \ String\ format\ of\ the\ measure\n
+comment6.params=s
+comment6.target=void\ textToMeasure(java.lang.String)
+comment6.text=\n\ The\ opposite\ to\ method\ measureToText\:\ interprets\ one\ line\ of\ text\ to\ edit\n\ one\ method.\ Text\ must\ be\ formatted\ as\ the\ program\ calls\ for\ it.\n\ \n\ @param\ \ \ s\ \ \ the\ text\ to\ be\ read\ to\ import\ the\ song\n
+numComments=7

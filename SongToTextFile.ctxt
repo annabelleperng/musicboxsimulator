@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SongToTextFile()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ SongToTextFile\n
+comment1.params=s
+comment1.target=void\ createTextFile(Song)
+comment1.text=\n\ Converts\ and\ exports\ the\ parameter\ song\ into\ a\ text\ file.\n\ \n\ @param\ \ \ s\ \ \ the\ song\ to\ be\ converted\ into\ a\ text\ file\n
+comment2.params=songName
+comment2.target=Song\ readTextFile(java.lang.String)
+comment2.text=\n\ Reads\ an\ existing\ text\ file\ and\ converts\ it\ into\ a\ new\ song.\n\ \n\ @precondition\ \ \ \ text\ file\ must\ be\ formatted\ exactly\ as\ the\ program\ whishes;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ text\ file\ must\ exist.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \n\ @param\ \ \ songName\ \ \ \ the\ name\ of\ the\ text\ file\ the\ song\ was\ saved\ to\n\ @return\ \ song\ format\ of\ text\ file\ songName.txt\n
+numComments=3

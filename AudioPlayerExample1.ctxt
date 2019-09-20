@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ findFilePath()
+comment0.text=\n\ Finds\ the\ file\ pathway\ to\ the\ current\ directory.\ This\ is\ unique\ for\ each\ device.\n
+comment1.params=audioFilePath
+comment1.target=void\ play(java.lang.String)
+comment1.text=\n\ Plays\ a\ given\ audio\ file.\n\ \n\ @param\ audioFilePath\ Path\ of\ the\ audio\ file.\n
+comment2.params=event
+comment2.target=void\ update(javax.sound.sampled.LineEvent)
+comment2.text=\n\ Listens\ to\ the\ START\ and\ STOP\ events\ of\ the\ audio\ line.\n\ \n\ @param\ \ \ event\ \ \ the\ event\ of\ type\ start\ or\ stop\:\ updates\ the\ system\ to\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ see\ if\ the\ sound\ has\ stopped\ playing.\n
+comment3.params=noteName
+comment3.target=void\ playNote(java.lang.String)
+comment3.text=\n\ Plays\ a\ speciifc\ note\ given\ a\ note\ name.\ Note\ names\ are\ defined\ in\ class\ Note.\n\ \n\ @param\ \ \ noteName\ \ \ \ the\ formal\ name\ of\ the\ note,\ which\ is\ a\ string\ 3\ characters\ long.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ noteName\ must\ be\ a\ valid\ note\ name\ between\ E-3\ (highest)\ and\ C-0\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (lowest).\n
+numComments=4
